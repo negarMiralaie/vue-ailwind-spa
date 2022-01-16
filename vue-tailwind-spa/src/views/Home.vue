@@ -1,6 +1,7 @@
 <template>
-  <div class="home">
-  </div>
+  <section class="home">
+    <home-hero/>
+  </section>
 </template>
 
 <script>

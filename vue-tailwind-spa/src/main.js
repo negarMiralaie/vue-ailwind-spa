@@ -16,6 +16,7 @@ import desktopNavbar from './modules/webapp/components/layouts/components/partia
 import mobileNavbar from './modules/webapp/components/layouts/components/partials/header/navbar/mobile-navbar.vue'
 import navbar from './modules/webapp/components/layouts/components/partials/header/navbar/navbar.vue'
 import contactUs from './modules/webapp/components/contact-us.vue'
+import homeHero from './modules/webapp/components/layouts/components/partials/home-partials/home-hero.vue'
 
 const app = createApp(App);
 
@@ -27,5 +28,6 @@ app.component("desktop-navbar", desktopNavbar);
 app.component("mobile-navbar", mobileNavbar);
 app.component("navbar", navbar);
 app.component("contact-us", contactUs);
+app.component("home-hero", homeHero);
 
 app.use(store).use(router).mount("#app");

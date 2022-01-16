@@ -8,7 +8,7 @@ import contactUs from "../modules/webapp/components/contact-us.vue";
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "home",
     component: Home,
   },
   {

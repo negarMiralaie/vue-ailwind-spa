@@ -1,8 +1,9 @@
 <template>
-  <div id="nav">
+  <section id="nav">
     <!-- <router-link to="/" >Home</router-link> | -->
     <!-- <router-link to="/about">About</router-link> -->
     <navbar/>
-  </div>
+    <Home v-if="$route.name==='Home'"/>
+  </section>
   <!-- <router-view/> -->
 </template>
