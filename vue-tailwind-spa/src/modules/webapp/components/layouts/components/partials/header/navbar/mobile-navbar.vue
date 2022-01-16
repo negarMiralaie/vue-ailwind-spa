@@ -13,10 +13,10 @@
       <section class="overflow-hidden hover:bg-white w-full">
         <router-link to="/contact-us" class="mobile-navbar-element block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeDesktopNavbarElement: $route.name==='contact-us'}">ارتباط با ما</router-link>
       </section>
-      <section class="overflow-hidden w-full">
-        <button class="bg-customYellow rounded mobile-navbar-element mx-auto block py-4 px-6 transition ease-in-out delay-150 hover:scale-125">
+      <section class="overflow-hidden w-3/4">
+        <p class="bg-customYellow rounded mobile-navbar-element mx-auto block py-4 px-6 transition ease-in-out delay-150 hover:scale-125">
          ثبت درخواست ویزیت
-        </button>
+        </p>
       </section>
     </section>
   </section>
