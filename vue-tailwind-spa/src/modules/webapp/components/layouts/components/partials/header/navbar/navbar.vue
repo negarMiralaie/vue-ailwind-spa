@@ -3,9 +3,9 @@
   <section class="flex items-center py-6">
     <desktop-navbar/>
     <section class="w-12 bg-customPink h-12 rounded-3xl flex items-center justify-center ml-auto md:hidden cursor-pointer">
-      <font-awesome-icon :icon="['fas', 'bars']" @click="toggleIsSideNavbarOpen()" class="text-black inline"/>
+      <font-awesome-icon :icon="['fas', 'bars']" @click="toggleisMobileNavbarOpen()" class="text-black inline"/>
     </section>
-    <mobile-navbar :isSideNavbarOpen="isSideNavbarOpen" @closeSideNavbar="closeSideNavbar"/>
+    <mobile-navbar :isMobileNavbarOpen="isMobileNavbarOpen" @closeSideNavbar="closeSideNavbar"/>
       <!-- <router-link to="/" class="text-left text-2xl md:text-3xl font-bold">MED</router-link> -->
   </section>
   <router-view />
@@ -15,15 +15,15 @@
 export default {
   data(){
     return{
-      isSideNavbarOpen : false
+      isMobileNavbarOpen : false
     }
   },
   methods:{
-    toggleIsSideNavbarOpen(){
-      this.isSideNavbarOpen = !this.isSideNavbarOpen;
+    toggleisMobileNavbarOpen(){
+      this.isMobileNavbarOpen = !this.isMobileNavbarOpen;
     },
     closeSideNavbar(payload){
-      this.isSideNavbarOpen = !this.isSideNavbarOpen;
+      this.isMobileNavbarOpen = !this.isMobileNavbarOpen;
     }
   }
 }
