@@ -43,7 +43,6 @@ export default {
   .mobile-navbar-bg{
     min-height:200vh;
     width: 200vw;
-    /* background-color: #E35057; */
   }
   .activeDesktopNavbarElement{
     background-color: #F3E217;

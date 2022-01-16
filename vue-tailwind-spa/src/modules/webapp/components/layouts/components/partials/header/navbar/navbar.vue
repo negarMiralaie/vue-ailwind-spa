@@ -6,7 +6,6 @@
       <font-awesome-icon :icon="['fas', 'bars']" @click="toggleisMobileNavbarOpen()" class="text-black inline"/>
     </section>
     <mobile-navbar :isMobileNavbarOpen="isMobileNavbarOpen" @closeSideNavbar="closeSideNavbar"/>
-      <!-- <router-link to="/" class="text-left text-2xl md:text-3xl font-bold">MED</router-link> -->
   </section>
   <router-view />
 </template>
