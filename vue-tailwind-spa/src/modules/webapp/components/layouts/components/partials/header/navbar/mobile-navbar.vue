@@ -1,26 +1,17 @@
 <template>
-    <section @click="closeSideNavbar" class="sideNavbarBg fixed w-screen bg-[rgba(0,0,0,0.6)] z-10">
-      <section class="sideNavContent transform -translate-x-full transition duration-1000 ease-in-out flex gap-8 py-8 text-center flex-col items-center min-h-screen fixed z-20 top-0 right-0 w-full w-1/2 bg-customBlue text-white">
-      <section class="overflow-hidden hover:bg-blue-300 w-full">
-      <router-link to="/" class="sideNavElement block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeHorizontalNavElement: $route.name==='Home'}">Home</router-link>
+    <section @click="closeSideNavbar" class="mobile-navbar-bg pointer fixed w-screen bg-[rgba(0,0,0,0.6)] z-10">
+      <section class="mobile-navbar-content transform -translate-x-full transition duration-1000 ease-in-out flex gap-8 py-8 text-center flex-col items-center min-h-screen fixed z-20 top-0 right-0 w-full w-1/2 bg-customPink text-black">
+    <section class="overflow-hidden hover:bg-white w-full">
+      <router-link to="/about-us" class="mobile-navbar-element block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeDesktopNavbarElement: $route.name==='about-us'}">درباره ما</router-link>
     </section>
-    <section class="overflow-hidden hover:bg-blue-300 w-full">
-      <router-link to="/about-us" class="sideNavElement block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeHorizontalNavElement: $route.name==='aboutUs'}">About us</router-link>
+    <section class="overflow-hidden hover:bg-white w-full">
+      <router-link to="/services" class="mobile-navbar-element block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeDesktopNavbarElement: $route.name==='services'}">خدمات</router-link>
     </section>
-    <section class="overflow-hidden hover:bg-blue-300 w-full">
-      <router-link to="/services" class="sideNavElement block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeHorizontalNavElement: $route.name==='services'}">Services</router-link>
+     <section class="overflow-hidden hover:bg-white w-full">
+      <router-link to="/blog" class="mobile-navbar-element block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeDesktopNavbarElement: $route.name==='blog'}">بلاگ</router-link>
     </section>
-    <section class="overflow-hidden hover:bg-blue-300 w-full">
-      <router-link to="/pricing" class="sideNavElement block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeHorizontalNavElement: $route.name==='pricing'}">Pricing</router-link>
-    </section>
-    <section class="overflow-hidden hover:bg-blue-300 w-full">
-      <router-link to="/testimonial" class="sideNavElement block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeHorizontalNavElement: $route.name==='testimonial'}">Testimonial</router-link>
-    </section>
-    <section class="overflow-hidden hover:bg-blue-300 w-full">
-      <router-link to="/blog" class="sideNavElement block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeHorizontalNavElement: $route.name==='blog'}">Blog</router-link>
-    </section>
-    <section class="hover:scale-105">
-      <router-link to="/navbar-buttons" class="sideNavElement py-4 bg-white px-6 rounded text-black transition ease-in-out delay-150" :class="{activeHorizontalNavElement: $route.name==='buttons'}">Buttons</router-link>
+     <section class="overflow-hidden hover:bg-white w-full">
+      <router-link to="/contact-us" class="mobile-navbar-element block py-4 transition ease-in-out delay-150 hover:scale-125" :class="{activeDesktopNavbarElement: $route.name==='contact-us'}">ارتباط با ما</router-link>
     </section>
     </section>
     </section>
@@ -30,7 +21,7 @@
 export default {
   methods:{
     closeSideNavbar(event){
-      if(event.target.classList.contains("sideNavbarBg") || event.target.classList.contains("sideNavElement")){
+      if(event.target.classList.contains("mobile-navbar-bg") || event.target.classList.contains("mobile-navbar-element")){
         this.$emit('closeSideNavbar');
       }
     }
@@ -39,11 +30,11 @@ export default {
 </script>
 
 <style scoped>
-  .sideNavbarBg{
+  .mobile-navbar-bg{
     min-height:200vh;
+    /* background-color: #E35057; */
   }
-  .activeHorizontalNavElement{
-    background-color: white;
-    color: #2765E7;
+  .activeDesktopNavbarElement{
+    background-color: #F3E217;
   }
 </style>

@@ -1,10 +1,10 @@
 
 <template>
   <section class="flex items-center py-6">
-    <router-link to="/" class="mr-auto md:w-1/3 lg:w-1/2 text-customBlue font-bold">MED</router-link>
-    <horizontal-navbar/>
-    <font-awesome-icon :icon="['fas', 'ellipsis-h']" @click="toggleIsOpenSideNavbar()" class="text-black ml-auto inline md:hidden cursor-pointer" />
-    <side-navbar v-if="isOpenSideNavbar" @closeSideNavbar="closeSideNavbar"/>
+    <desktop-navbar/>
+    <font-awesome-icon :icon="['fas', 'ellipsis-h']" @click="toggleIsSideNavbarOpen()" class="text-black ml-auto inline md:hidden cursor-pointer" />
+    <mobile-navbar v-if="isSideNavbarOpen" @closeSideNavbar="closeSideNavbar"/>
+      <router-link to="/" class="text-left md:w-1/3 lg:w-1/2 text-2xl md:text-3xl font-bold">MED</router-link>
   </section>
   <router-view />
 </template>
@@ -13,15 +13,15 @@
 export default {
   data(){
     return{
-      isOpenSideNavbar : false
+      isSideNavbarOpen : false
     }
   },
   methods:{
-    toggleIsOpenSideNavbar(){
-      this.isOpenSideNavbar = !this.isOpenSideNavbar;
+    toggleIsSideNavbarOpen(){
+      this.isSideNavbarOpen = !this.isSideNavbarOpen;
     },
     closeSideNavbar(payload){
-      this.isOpenSideNavbar = !this.isOpenSideNavbar;
+      this.isSideNavbarOpen = !this.isSideNavbarOpen;
     }
   }
 }
