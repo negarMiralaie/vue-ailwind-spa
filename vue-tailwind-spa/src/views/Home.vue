@@ -3,6 +3,7 @@
     <home-hero/>
 
     <home-you-always-get-our-help/>
+    <home-services/>
   </section>
 </template>
 
