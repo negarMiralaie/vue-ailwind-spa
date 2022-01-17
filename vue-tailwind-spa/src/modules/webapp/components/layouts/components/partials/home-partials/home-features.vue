@@ -12,7 +12,7 @@
                 <img class="md:w-2/6 md:bottom-10% md:left-105% md:absolute" src="https://www.verywellhealth.com/thmb/JyVJmPFnrUe5mWbesKHsufm2qBE=/1997x1501/filters:no_upscale():max_bytes(150000):strip_icc()/surgeon-GettyImages-200140323-001-578ce4ab5f9b584d20ce3d9f.jpg" alt="surgery">
             </section>
             <section class="flex flex-col md:w-4/6">
-                <section class="flex items-center">
+                <section class="flex items-center mt-4 md:mt-0">
                     <section class="bg-customPink w-12 text-white h-12 rounded-3xl flex items-center justify-center">
                         <font-awesome-icon :icon="['fas', 'hospital']" class="text-white inline scale-150"/>
                     </section>
