@@ -17,6 +17,7 @@ import mobileNavbar from './modules/webapp/components/layouts/components/partial
 import navbar from './modules/webapp/components/layouts/components/partials/header/navbar/navbar.vue'
 import contactUs from './modules/webapp/components/contact-us.vue'
 import homeHero from './modules/webapp/components/layouts/components/partials/home-partials/home-hero.vue'
+import homeYouAlwaysGetOurHelp from './modules/webapp/components/layouts/components/partials/home-partials/home-you-always-get-our-help.vue'
 
 const app = createApp(App);
 
@@ -29,5 +30,6 @@ app.component("mobile-navbar", mobileNavbar);
 app.component("navbar", navbar);
 app.component("contact-us", contactUs);
 app.component("home-hero", homeHero);
+app.component("home-you-always-get-our-help", homeYouAlwaysGetOurHelp);
 
 app.use(store).use(router).mount("#app");
