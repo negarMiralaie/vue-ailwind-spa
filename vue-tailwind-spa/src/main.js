@@ -19,6 +19,7 @@ import contactUs from './modules/webapp/components/contact-us.vue'
 import homeHero from './modules/webapp/components/layouts/components/partials/home-partials/home-hero.vue'
 import homeYouAlwaysGetOurHelp from './modules/webapp/components/layouts/components/partials/home-partials/home-you-always-get-our-help.vue'
 import homeServices from './modules/webapp/components/layouts/components/partials/home-partials/home-services.vue'
+import homeFeatures from './modules/webapp/components/layouts/components/partials/home-partials/home-features.vue'
 
 const app = createApp(App);
 
@@ -33,5 +34,6 @@ app.component("contact-us", contactUs);
 app.component("home-hero", homeHero);
 app.component("home-you-always-get-our-help", homeYouAlwaysGetOurHelp);
 app.component("home-services", homeServices);
+app.component("home-features", homeFeatures);
 
 app.use(store).use(router).mount("#app");

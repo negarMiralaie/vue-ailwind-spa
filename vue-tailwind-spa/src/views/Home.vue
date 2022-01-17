@@ -4,6 +4,7 @@
 
     <home-you-always-get-our-help/>
     <home-services/>
+    <home-features/>
   </section>
 </template>
 
