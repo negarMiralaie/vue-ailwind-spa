@@ -7,3 +7,9 @@
   </section>
   <!-- <router-view/> -->
 </template>
+
+<style scoped>
+  body{
+    box-sizing: border-box;
+  }
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="px-5% w-screen flex">
+  <section class="md:px-5% md:w-full flex">
     <section class="ml-auto w-1/2 hidden md:inline relative ">
       <button class="bg-customOrange text-white transition ease-in-out delay-150 hover:scale-105 rounded px-6 py-3 absolute right-1/4">
         ثبت درخواست ویزیت
