@@ -4,13 +4,13 @@
                 <h5>{{title}}</h5>
                 <font-awesome-icon :icon="icon" class="text-customPink text-3xl" :class="{ openingHours: title === 'Opening Hours' }"/>
             </section>
-            <section class="flex flex-col mb-auto text-gray-300">
+            <section class="flex flex-col mb-auto text-customGray">
                     <p>{{body}}</p>
             </section>
             <section v-if="button" class="inline mb-auto ml-auto">
                 <button class="bg-customPink py-3 px-6 transition ease-in-out delay-150 hover:scale-105 hover:bg-customYellow rounded-3xl">{{button}}</button>
             </section> 
-            <section v-else class="flex flex-col text-gray-300">
+            <section v-else class="flex flex-col text-customGray">
                 <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
             </section>
     </section>
@@ -26,5 +26,9 @@
     .openingHours{
         background-color: #E35057;
         color: white;
+    }
+
+    .openingHours p{
+        color: rgb(238, 231, 231);
     }
 </style>
