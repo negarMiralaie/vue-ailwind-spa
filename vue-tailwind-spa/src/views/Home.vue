@@ -1,6 +1,7 @@
 <template>
   <section class="home">
     <home-hero/>
+    <testimonials/>
 
     <home-you-always-get-our-help/>
     <home-services/>
