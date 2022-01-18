@@ -53,6 +53,6 @@ body{
         color: white;
     }
 
-    .openingHours p{
+    .openingHours small{
         color: rgb(238, 231, 231);
     }
