@@ -13,7 +13,7 @@
       <section class="overflow-hidden hover:bg-white w-full">
         <router-link to="/contact-us" class="mobile-navbar-element block py-4 transition ease-in-out delay-150 hover:scale-105 font-bold" :class="{activeMobileNavbarElement: $route.name==='contact-us'}">ارتباط با ما</router-link>
       </section>
-      <section class="overflow-hidden w-3/4">
+      <section class="w-3/4">
         <p class="bg-customOrange text-white rounded-3xl mobile-navbar-element mx-auto block py-3 px-6 transition ease-in-out delay-150 hover:scale-105 font-bold">
          ثبت درخواست ویزیت
         </p>
