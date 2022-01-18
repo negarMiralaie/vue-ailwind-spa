@@ -1,15 +1,18 @@
 <template>
-    <section class="flex flex-col justify-between bg-white shadow-lg p-5% rounded min-h-48" :class="{ openingHours: title === 'Opening Hours' }">
-        <section class="flex justify-between">
-            <h5>{{title}}</h5>
-            <font-awesome-icon :icon="icon" class="text-customPink"/>
-        </section>
-
-        <section class="flex flex-col">
-            <p class="text-customGray">{{body}}</p>
-            <button class="bg-customPink mt-4 rounded block py-4 px-6 transition ease-in-out delay-150 hover:scale-125">{{button}}</button>
-        </section>
-
+    <section class="flex flex-col bg-white rounded-2xl shadow-lg p-5% min-h-72" :class="{ openingHours: title === 'Opening Hours' }">
+            <section class="flex justify-between mb-auto items-center">
+                <h5>{{title}}</h5>
+                <font-awesome-icon :icon="icon" class="text-customPink text-3xl" :class="{ openingHours: title === 'Opening Hours' }"/>
+            </section>
+            <section class="flex flex-col mb-auto text-gray-300">
+                    <p>{{body}}</p>
+            </section>
+            <section v-if="button" class="inline mb-auto ml-auto">
+                <button class="bg-customPink py-3 px-6 transition ease-in-out delay-150 hover:scale-105 hover:bg-customYellow rounded-3xl">{{button}}</button>
+            </section> 
+            <section v-else class="flex flex-col text-gray-300">
+                <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+            </section>
     </section>
 </template>
 
