@@ -2,7 +2,7 @@
     <section class="mt-8 flex flex-col md:flex-row p-5%">
         <section class="relative flex items-center md:ml-8 justify-center mt-8 md:mt-0 md:w-1/2">
             <img class="absolute top-0 right-0 z-11" src="https://www.heathrowe.com/tuts/easypatternsimages/7.gif" alt="circle pattern">
-            <img class="object-cover w-4/5 h-4/5 mr-5% mt-5% rounded-2xl" src="https://directorsblog.health.azdhs.gov/wp-content/uploads/2020/06/iStock-1153684245sm.jpg" alt="hospital beds">
+            <img class="object-cover w-4/5 h-4/5 mr-5% mt-5% rounded-2xl shadow-lg" src="https://directorsblog.health.azdhs.gov/wp-content/uploads/2020/06/iStock-1153684245sm.jpg" alt="hospital beds">
         </section>
 
         <section class="md:mr-8 flex flex-col items-start md:justify-center md:w-1/2">
