@@ -18,19 +18,17 @@
     url(../fonts/vazir-font-v8.2.1/Vazir-Light.woff) format("woff");
 }
 
-
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: shabnamFont, vazirFont;
-    line-height: 2;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: shabnamFont, vazirFont;
+  line-height: 2;
 }
 
-body{
-        margin: 0px;
-        padding: 0px;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
 .activeDesktopNavbarElement {
@@ -40,19 +38,49 @@ body{
   border-radius: 0.25rem;
 }
 
-  .mobile-navbar-bg{
-    min-height:200vh;
-    width: 200vw;
-  }
-  .activeMobileNavbarElement{
-    background-color: #F3E217;
-  }
+.mobile-navbar-bg {
+  min-height: 200vh;
+  width: 200vw;
+}
+.activeMobileNavbarElement {
+  background-color: #f3e217;
+}
 
-      .openingHours{
-        background-color: #E35057;
-        color: white;
-    }
+.openingHours {
+  background-color: #e35057;
+  color: white;
+}
 
-    .openingHours small{
-        color: rgb(238, 231, 231);
-    }
+.openingHours small {
+  color: rgb(238, 231, 231);
+}
+
+.desktopNavbar{
+  position: relative;
+}
+
+.desktopNavbar a:after{
+  content:"";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:2px;
+  background-color:rgb(235,121,26);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 250ms ease-in;
+}
+
+.desktopNavbar a:hover:after{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.desktopNavbarLogo{
+  transition: transform .7s ease-in-out;
+}
+
+.desktopNavbarLogo:hover {
+  transform: rotate(360deg);
+}
