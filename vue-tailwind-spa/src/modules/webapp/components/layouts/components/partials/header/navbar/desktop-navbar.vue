@@ -1,39 +1,42 @@
 <template>
-  <section class="ml-auto w-1/2 hidden md:inline">
-    <button class="bg-customYellow rounded px-6 py-3">
-      ثبت درخواست ویزیت
-    </button>
-  </section>
-  <section
+  <section class="px-5% w-screen flex">
+    <section class="ml-auto w-1/2 hidden md:inline relative ">
+      <button class="bg-customOrange text-white transition ease-in-out delay-150 hover:scale-105 rounded px-6 py-3 absolute right-1/4">
+        ثبت درخواست ویزیت
+      </button>
+    </section>
+
+    <section
     class="flex flex-col md:flex-row items-center justify-between hidden md:flex w-1/2"
   >
     <router-link
       to="/about-us"
-      class="py-3"
+      class="py-3 transition ease-in-out delay-150 hover:scale-105"
       :class="{ activeDesktopNavbarElement: $route.name === 'about-us' }"
       >درباره ما</router-link
     >
     <router-link
       to="/services"
-      class="py-3"
+      class="py-3 transition ease-in-out delay-150 hover:scale-105"
       :class="{ activeDesktopNavbarElement: $route.name === 'services' }"
       >خدمات</router-link
     >
     <router-link
       to="/blog"
-      class="py-3"
+      class="py-3 transition ease-in-out delay-150 hover:scale-105"
       :class="{ activeDesktopNavbarElement: $route.name === 'blog' }"
       >بلاگ</router-link
     >
     <router-link
       to="/contact-us"
-      class="py-3"
+      class="py-3 transition ease-in-out delay-150 hover:scale-105"
       :class="{ activeDesktopNavbarElement: $route.name === 'contact-us' }"
       >ارتباط با ما</router-link
     >
     <router-link to="/" class="text-left text-2xl md:text-4xl font-bold"
       >MED</router-link
     >
+  </section>
   </section>
 </template>
 
