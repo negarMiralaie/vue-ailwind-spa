@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-8 p-5% pb-10% md:pb-5% rounded-2xl shadow-lg relative">
+    <section class="mt-8 p-5% pb-10% md:pb-5% relative">
 
         <section class="md:w-1/2">
             <small class="mt-4 text-customPink">ویژگی ها</small>

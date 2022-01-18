@@ -28,6 +28,7 @@ import testimonials from './modules/webapp/components/testimonials/testimonials.
 import homeAbout from './modules/webapp/components/layouts/components/partials/home-partials/home-about.vue'
 import homeServices from './modules/webapp/components/layouts/components/partials/home-partials/home-services.vue'
 import homeFeatures from './modules/webapp/components/layouts/components/partials/home-partials/home-features.vue'
+import homeSchedule from './modules/webapp/components/layouts/components/partials/home-partials/home-schedule.vue'
 
 const app = createApp(App);
 
@@ -49,5 +50,6 @@ app.component("testimonials", testimonials);
 app.component("home-about", homeAbout);
 app.component("home-services", homeServices);
 app.component("home-features", homeFeatures);
+app.component("home-schedule", homeSchedule);
 
 app.use(store).use(router).mount("#app");
