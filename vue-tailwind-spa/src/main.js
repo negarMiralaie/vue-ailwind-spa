@@ -25,7 +25,7 @@ import testimonialsFindDoctors from './modules/webapp/components/testimonials/te
 import testimonialsFindLocations from './modules/webapp/components/testimonials/testimonials-find-locations.vue'
 import testimonials from './modules/webapp/components/testimonials/testimonials.vue'
 
-import homeYouAlwaysGetOurHelp from './modules/webapp/components/layouts/components/partials/home-partials/home-you-always-get-our-help.vue'
+import homeAbout from './modules/webapp/components/layouts/components/partials/home-partials/home-about.vue'
 import homeServices from './modules/webapp/components/layouts/components/partials/home-partials/home-services.vue'
 import homeFeatures from './modules/webapp/components/layouts/components/partials/home-partials/home-features.vue'
 
@@ -46,7 +46,7 @@ app.component("testimonials-appointment", testimonialsAppointment);
 app.component("testimonials-find-doctors", testimonialsFindDoctors);
 app.component("testimonials-find-locations", testimonialsFindLocations);
 app.component("testimonials", testimonials);
-app.component("home-you-always-get-our-help", homeYouAlwaysGetOurHelp);
+app.component("home-about", homeAbout);
 app.component("home-services", homeServices);
 app.component("home-features", homeFeatures);
 

@@ -3,7 +3,7 @@
     <home-hero/>
     <testimonials/>
 
-    <home-you-always-get-our-help/>
+    <home-about/>
     <home-services/>
     <home-features/>
   </section>
