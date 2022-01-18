@@ -21,14 +21,3 @@
         props:['title', 'icon', 'body', 'button']  
     }
 </script>
-
-<style scoped>
-    .openingHours{
-        background-color: #E35057;
-        color: white;
-    }
-
-    .openingHours p{
-        color: rgb(238, 231, 231);
-    }
-</style>

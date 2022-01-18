@@ -43,12 +43,3 @@
 <script>
 export default {};
 </script>
-
-<style scoped>
-.activeDesktopNavbarElement {
-  background-color: #e35057;
-  padding: 0.75rem 1.5rem;
-  color: white;
-  border-radius: 0.25rem;
-}
-</style>

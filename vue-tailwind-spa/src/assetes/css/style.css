@@ -31,3 +31,27 @@ body{
         margin: 0px;
         padding: 0px;
 }
+
+.activeDesktopNavbarElement {
+  background-color: #e35057;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  border-radius: 0.25rem;
+}
+
+  .mobile-navbar-bg{
+    min-height:200vh;
+    width: 200vw;
+  }
+  .activeMobileNavbarElement{
+    background-color: #F3E217;
+  }
+
+      .openingHours{
+        background-color: #E35057;
+        color: white;
+    }
+
+    .openingHours p{
+        color: rgb(238, 231, 231);
+    }
