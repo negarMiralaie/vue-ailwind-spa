@@ -1,7 +1,30 @@
+@font-face {
+  font-family: shabnamFont;
+  src: url("../fonts/shabnam-font-v1.1.0/Shabnam-Light.woff") format("woff"),
+    url("../fonts/shabnam-font-v1.1.0/Shabnam-Light.ttf") format("ttf"),
+    url("../fonts/shabnam-font-v1.1.0/Shabnam-Light.eot") format("eot"),
+    url("../fonts/shabnam-font-v1.1.0/Shabnam-Bold.eot") format("eot"),
+    url("../fonts/shabnam-font-v1.1.0/Shabnam-Bold.ttf") format("ttf"),
+    url("../fonts/shabnam-font-v1.1.0/Shabnam-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: vazirFont;
+  src: url(../fonts/vazir-font-v8.2.1/Vazir-Bold.eot) format("eot"),
+    url(../fonts/vazir-font-v8.2.1/Vazir-Bold.ttf) format("ttf"),
+    url(../fonts/vazir-font-v8.2.1/Vazir-Bold.woff) format("woff"),
+    url(../fonts/vazir-font-v8.2.1/Vazir-Light.eot) format("eot"),
+    url(../fonts/vazir-font-v8.2.1/Vazir-Light.ttf) format("ttf"),
+    url(../fonts/vazir-font-v8.2.1/Vazir-Light.woff) format("woff");
+}
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: shabnamFont, vazirFont;
 }
 
 body{
