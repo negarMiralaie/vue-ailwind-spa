@@ -1,7 +1,7 @@
 <template>
   <section class="md:px-5% md:w-full flex">
     <section class="ml-auto w-1/2 hidden md:inline relative ">
-      <button class="bg-customOrange font-bold	 text-white transition ease-in-out delay-150 hover:scale-105 rounded-3xl px-6 py-3 absolute right-1/4">
+      <button class="bg-customOrange font-bold hover:bg-customYellow hover:text-black text-white transition ease-in-out delay-150 hover:scale-105 rounded-3xl px-6 py-3 absolute right-1/4">
         ثبت درخواست ویزیت
       </button>
     </section>

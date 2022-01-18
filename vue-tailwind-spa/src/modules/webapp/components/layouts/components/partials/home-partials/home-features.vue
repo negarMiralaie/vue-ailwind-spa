@@ -21,7 +21,7 @@
                 </section>
                 <section class="flex flex-col items-start">
                     <small class="mt-4 text-customDarkGray">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</small>
-                    <button class="mt-4 bg-customOrange text-white mt-4 rounded-3xl block py-3 px-6 transition ease-in-out delay-150 hover:scale-105 cursor-pointer">ادامه مطلب</button>
+                    <button class="mt-4 bg-customOrange hover:bg-customPink text-white mt-4 rounded-3xl block py-3 px-6 transition ease-in-out delay-150 hover:scale-105 cursor-pointer">ادامه مطلب</button>
                 </section>
             </section>
         </section>

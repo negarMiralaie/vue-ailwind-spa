@@ -11,7 +11,7 @@
                 <h3 class="mt-4 font-bold text-xl">برنامه قرارها</h3>
                 <p class="mt-4">لورم ایپسوم متن ساختگی با تولید سادگی  اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
                 <small class="mt-4 text-customDarkGray">لورم ایپسوم متن ساختگی ، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</small>
-                <button class="mt-4 bg-customDarkGray text-red-300 mt-4 rounded-3xl block py-3 px-6 transition ease-in-out delay-150 hover:scale-105">تعیین وقت</button>
+                <button class="mt-4 bg-customDarkGray hover:bg-customYellow text-red-300 mt-4 rounded-3xl block py-3 px-6 transition ease-in-out delay-150 hover:scale-105">تعیین وقت</button>
             </section>
         </section>
     </section>
