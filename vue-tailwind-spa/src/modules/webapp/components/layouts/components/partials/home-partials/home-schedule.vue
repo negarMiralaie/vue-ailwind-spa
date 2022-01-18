@@ -1,5 +1,5 @@
 <template>
-    <section class="mt-10% bg-customLightGray rounded-2xl shadow-lg p-5% relative flex md:flex-row-reverse flex-col">
+    <section class="mt-10% bg-customLightGray rounded-2xl shadow-lg p-5% m-5% relative flex md:flex-row-reverse flex-col">
         <section class="flex justify-center items-center">
             <img class="absolute top-5% left-5% md:right-5% md:left-0 md:w-1/4 md:h-2/4 z-10" src="https://www.heathrowe.com/tuts/easypatternsimages/7.gif" alt="circle pattern">
             <img class="mt-10% md:absolute md:top-0 md:mt-5% md:right-10% md:w-1/3 md:h-2/3 z-20 mb-8" src="../../../../../../../assetes/images/pink-calendar.png" alt="calendar">
