@@ -8,10 +8,10 @@
         </section>
 
         <section class="min-h-80vw relative md:static md:min-h-0 flex justify-center items-center mt-8 md:mt-0 md:w-1/2 md:ml-8">
-            <section class="absolute bottom-0 right-0 w-4/6 h-4/6 md:w-2/6 md:h-2/5 md:top-0 md:right-0 bg-customPink z-11 shadow-lg"></section>
-            <section class="absolute bottom-0 right-0 w-1/6 h-1/6 md:w-1/5 md:h-1/5 md:top-0 md:right-0 bg-red-700 z-11 rounded-tl-2xl"></section>
+            <section class="absolute bottom-0 right-0 w-4/6 h-4/6 md:w-44% md:h-3/6 lg:w-40% lg:h-2/5 md:top-0 md:right-0 bg-customPink z-11 shadow-lg rounded-bl-2xl"></section>
+            <section class="absolute bottom-0 right-0 w-1/6 h-1/6 md:w-25% md:h-1/5 lg:w-25% lg:h-1/5 xl:w-20% md:top-0 md:right-0 bg-red-700 z-11 rounded-bl-2xl"></section>
 
-            <section class="w-4/5 md:w-2/3 md:h-2/3 flex items-center justify-center bg-customYellow shadow-lg rounded-2xl relative">
+            <section class="w-4/5 md:w-full md:h-1/3 lg:w-80% lg:h-2/3 flex items-center justify-center bg-customYellow shadow-lg rounded-2xl relative">
                 <img src="../../../../../../../assetes/images/hero-img.png" alt="doctors picture" class="md:w-4/6 rounded-2xl md:absolute md:bottom-0">
             </section>
         </section>
