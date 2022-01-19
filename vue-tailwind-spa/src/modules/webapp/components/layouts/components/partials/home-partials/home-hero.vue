@@ -8,11 +8,11 @@
         </section>
 
         <section class="min-h-80vw relative md:static md:min-h-0 flex justify-center items-center mt-8 md:mt-0 md:w-1/2 md:ml-8">
-            <section class="absolute bottom-0 right-0 w-4/6 h-4/6 md:w-2/6 md:h-2/5 md:top-0 md:right-0 bg-customPink z-11 shadow-lg rounded-2xl"></section>
+            <section class="absolute bottom-0 right-0 w-4/6 h-4/6 md:w-2/6 md:h-2/5 md:top-0 md:right-0 bg-customPink z-11 shadow-lg"></section>
             <section class="absolute bottom-0 right-0 w-1/6 h-1/6 md:w-1/5 md:h-1/5 md:top-0 md:right-0 bg-red-700 z-11 rounded-tl-2xl"></section>
 
             <section class="w-4/5 md:w-2/3 md:h-2/3 flex items-center justify-center bg-customYellow shadow-lg rounded-2xl relative">
-                <img src="../../../../../../../assetes/images/hero-1-removebg-preview.png" alt="doctors picture" class="md:w-4/6 rounded-2xl md:absolute md:bottom-0">
+                <img src="../../../../../../../assetes/images/hero-img.png" alt="doctors picture" class="md:w-4/6 rounded-2xl md:absolute md:bottom-0">
             </section>
         </section>
     </section>
